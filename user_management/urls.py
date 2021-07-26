@@ -3,7 +3,6 @@ from rest_framework.routers import DefaultRouter
 
 from .views import UserViewSet, confirmation_code_sender, get_token
 
-
 router_v1 = DefaultRouter()
 router_v1.register(r'users', UserViewSet, basename='users')
 
