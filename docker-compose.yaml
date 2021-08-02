@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: .
+    image: leosan/yamdb_final
     restart: always
     volumes:
       - static_value:/code/static/
@@ -32,6 +32,5 @@ services:
 
 volumes:
   postgres_data:
-  # Добавляем новые тома 
   static_value:
   media_value:
