@@ -12,8 +12,7 @@ SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 
 DEBUG = False
 
-
-ALLOWED_HOSTS = ['web', '127.0.0.1', 'localhost', 'www.leosan.ga', 'leosan.ga', '84.201.128.23', ]
+ALLOWED_HOSTS = ['84.201.128.23', 'localhost', 'www.leosan.ga', 'leosan.ga', ]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
