@@ -8,6 +8,7 @@ environ.Env.read_env()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = False
