@@ -18,7 +18,6 @@ services:
     env_file:
       - ./.env
 
-  # Новый контейнер
   nginx:
     image: nginx:1.19.3
     ports:
